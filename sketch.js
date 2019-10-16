@@ -41,8 +41,6 @@ function draw() {
 		selectionStep(r, rep);
 	} else if (mode == "bubble"){
 		bubbleStep(r, rep);
-	} else if (mode == "quick"){
-		quickStep();
 	}
 
 	if (rep < length){
